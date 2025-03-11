@@ -137,7 +137,7 @@ numpy==1.26.4
     #   pandas
     #   pydeck
     #   streamlit
-openai==1.54.3
+openai==1.66.0
     # via langchain-openai
 ordereddict==1.1
     # via python-dotenv
