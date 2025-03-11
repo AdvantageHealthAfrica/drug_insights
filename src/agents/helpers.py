@@ -7,6 +7,8 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 
 class InMemoryHistory(BaseChatMessageHistory, BaseModel):
     """In memory implementation of chat message history."""
+    class Config:
+        arbitrary_types_allowed = True
 
     messages: List[BaseMessage] = Field(default_factory=list)
 
