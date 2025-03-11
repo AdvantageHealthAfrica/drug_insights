@@ -165,7 +165,7 @@ protobuf==4.25.5
     # via streamlit
 pyarrow==18.0.0
     # via streamlit
-pydantic==2.10.6
+pydantic==1.10.21
     # via
     #   langchain
     #   langchain-core
