@@ -93,7 +93,7 @@ langchain==0.2.3
     #   langchain-community
 langchain-community==0.2.4
     # via -r requirements.in
-langchain-core==0.2.43
+langchain-core==0.2
     # via
     #   langchain
     #   langchain-community
