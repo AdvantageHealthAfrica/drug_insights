@@ -141,7 +141,7 @@ ordereddict==1.1
     # via python-dotenv
 orjson==3.10.11
     # via langsmith
-packaging==24.0
+packaging==23.2
     # via
     #   altair
     #   langchain-core
